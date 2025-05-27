@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/WildEye/:match*", "destination": "/WildEye/build/:match*" }
+  ],
+  "redirects": [
+    { "source": "/", "destination": "/WildEye/", "permanent": true }
+  ]
+}
