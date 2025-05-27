@@ -4,7 +4,6 @@ Animal Detection and Classification using YOLO.
 
 You can try the demo [here](http://ec2-44-203-175-171.compute-1.amazonaws.com:3000/#home-section).
 
-![Demo](/INFO/demoImg.png)
 
 This repository contains the implementation of an animal detection system using transfer learning on YOLO (You Only Look Once) which trained on the COCO (Common Objects in Context) dataset. The goal of this project is to develop an accurate animal detection model by leveraging the knowledge learned from a pre-trained YOLO model on a large-scale dataset.
 
