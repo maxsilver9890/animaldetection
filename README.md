@@ -2,7 +2,7 @@
 # WildEye
 Animal Detection and Classification using YOLO.
 
-You can try the demo [here](https://shreehari-revankar.github.io/WildEye/).
+You can try the demo [here](http://ec2-44-203-175-171.compute-1.amazonaws.com:3000/#home-section).
 
 ![Demo](/INFO/demoImg.png)
 
@@ -53,7 +53,7 @@ Install Node.js and npm using the link above. Follow instructions on their respe
 
 Clone the repository
 ```bash
-git clone https://github.com/shreehari-revankar/WildEye.git
+git clone https://github.com/maxsilver9890/animaldetection.git
 ```
 
 Install all the dependencies
@@ -89,8 +89,3 @@ For any inquiries or questions, please feel free to contact.
 
 Enjoy exploring the world of animal detection using YOLO on the COCO dataset!
 
-## License
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-[MIT License Link](https://github.com/shreehari-revankar/WildEye/blob/main/LICENSE)
