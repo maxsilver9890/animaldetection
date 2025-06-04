@@ -5,8 +5,10 @@ import useDetector from './useDetector';
 import MagicDropzone from 'react-magic-dropzone';
 import upload from '../utils/upload.png';
 
+
 const Detection = () => {
     const { model, labels } = useContext(ModelContext);
+    
     const dimensions = useDimension();
     const [loadedImg, setLoadedImg] = useState(null); 
     const imageRef = useRef();
@@ -78,3 +80,4 @@ const Detection = () => {
 }
 
 export default Detection;
+
