@@ -4,9 +4,9 @@ import { ModelContext } from './detection/context/model-context';
 import Selector from './detection/utils/Selector';
 import LoadingSpinner from './detection/utils/LoadingSpinner';
 
-// FIX: Use jsDelivr CDN to serve files with correct CORS headers
-const MODEL_URL = 'https://cdn.jsdelivr.net/gh/maxsilver9890/animaldetection@main/public/detection/model.json';
-const LABELS_URL = 'https://cdn.jsdelivr.net/gh/maxsilver9890/animaldetection@main/public/detection/labels.json';
+// FIX: Corrected the jsDelivr URL to include the 'WildEye' directory
+const MODEL_URL = 'https://cdn.jsdelivr.net/gh/maxsilver9890/animaldetection@main/WildEye/public/detection/model.json';
+const LABELS_URL = 'https://cdn.jsdelivr.net/gh/maxsilver9890/animaldetection@main/WildEye/public/detection/labels.json';
 
 const Detect = () => {
     const [model, setModel] = useState(null);
